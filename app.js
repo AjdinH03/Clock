@@ -39,6 +39,9 @@ btn.addEventListener('click' , function(){
         document.body.style.color = color;
         btn.style.color = "white";
         btn.style.backgroundColor = color;
+        if(btn.style.backgroundColor === 'white'){
+            btn.style.color = "black";
+        }
     }
 });
 
